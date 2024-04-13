@@ -16,7 +16,7 @@
 	<properties>
 		<java.version>17</java.version>
 	</properties>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -37,7 +37,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>classtwo</finalName>
+		<finalName>classtwo-docker</finalName>
 	</build>
 
 </project>
